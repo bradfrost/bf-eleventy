@@ -1,0 +1,16 @@
+---
+title: Busy, Busy, Busy
+date: '2009-03-23'
+post_id: 369
+original_link: https://bradfrost.com/blog/post/busy-busy-busy/
+---
+
+Its been over 8 months since I've been living in the city that never sleeps, and the city's momentum has clearly affected me, mostly for the best. My work at [Pod1](http://pod1.com "Pod1 Web Design") has provided me many opportunities to grow as a web developer, which I am extremely thankful for. Some of my recent Pod1 projects include: 
+
+### [Adventure Gear](http://adventuregear.com "Adventure Gear Jacket System")
+
+[caption id="attachment_96" align="alignnone" width="565" caption="Adventure Gear Jacket System"][![Adventure Gear Jacket System](https://bradfrost.com/wp-content/uploads/2009/03/adventure_gear.jpg)](http://adventuregear.com "Adventure Gear Jacket System")[/caption] Adventure Gear is a clothing brand specializing in a multi-tiered jacket system, which allows you to stay comfortable in almost any climate situation. I was responsible for building all front end elements, including site templates, Flash production, and Flash video with alpha channels (currently being worked on).
+
+### [The New World Institute](http://thenewworldinstitute.com "The New World Institute - Career Transformation")
+
+[caption id="attachment_95" align="alignnone" width="565" caption="The New World Instutute - Career Transformation"][![The New World Instutute - Career Transformation](https://bradfrost.com/wp-content/uploads/2009/03/the-new-world-institute.jpg)](http://thenewworldinstitute.com "The New World Institute - Career Transformtion")[/caption] The New World Institute is a career transformation service, helping motivate people to find their true passion in life. Still ironing out some of the details of the site, I was responsible for building all HTML, CSS and Jquery. Outside of my Pod1 work, I have been hard at work on several projects, including a website and brand redesign of renowned photographer [Casey Templeton](http://caseytempleton.com "Richmond, VA Photographer - Casey Templeton"). Also, we are working on the brand identity, website design and online marketing of Owasso, OK based chiropractic firm, [Comlete Care Chiropractic](http://owassochiropractor.com "Owasso, OK Chiropractor - Complete Care Chiropractic"). My lovely fiancè and I have been collaborating on our design, music and art since we've been together, and I'm excited at all the wonderful places our collaboration will take us. Expect something [here](http://frostfrost.com/ "Frost Frost - Brad Frost and Melissa Bostian") in the near future...it will be exciting. On top of all THAT, I have been working on a redesign of[ Brad Frost Web](https://bradfrost.com "Brad Frost Web - Web Design"), working on several large scale paintings, and along with Melissa writing and recording what will be an album this time next year. The only downside to all this wonderful work is that my back hurts a bit from sitting so much, so I've recently invested in a proper office chair as well as a temperpedic pillow. I'm sure it will be worth the investment. Its hard to document everything when I feel like the days and weeks just fly by, but I am really trying to make an effort to be more consistent with my postings here. Only good things to come!

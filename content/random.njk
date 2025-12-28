@@ -1,0 +1,13 @@
+---js
+const eleventyNavigation = {
+	key: "Random",
+	order: 19
+};
+---
+<h1>Random</h1>
+
+{% set postslist = collections.random %}
+{% include "postslist.njk" %}
+
+
+

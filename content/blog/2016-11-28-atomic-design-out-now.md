@@ -1,0 +1,24 @@
+---
+title: Atomic Design Out Now
+date: '2016-11-28'
+tags:
+- atomic design
+- book
+- ebook
+post_id: 10030
+original_link: https://bradfrost.com/blog/post/atomic-design-out-now/
+custom_meta:
+  hide-ads: Show
+---
+
+I have great news: **_Atomic Design_ is complete and is on sale now! ** [caption id="attachment_10033" align="alignnone" width="1024"][![Ziggy the model bulldog with the Atomic Design ebook on an iPad](http://bradfrost.com/wp-content/uploads/2016/11/ziggy-model-1024x768.jpg)](http://shop.bradfrost.com/) Ziggy is so freaking excited.[/caption] You can pick which flavor of the book suits you best: 
+ 
+   1. [**Paperback**](http://shop.bradfrost.com/products/atomic-design) for $20
+   2. [**Ebook**](http://shop.bradfrost.com/products/atomic-design-ebook) for $10
+   3. [**Paperback + Ebook**](http://shop.bradfrost.com/products/atomic-design-print-ebook) for $25
+ 
+**The ebook** includes ePub, mobi, and PDF formats so you can read it on your iPad, Kindle, desktop, or whichever digital contraption you like to read ebooks on. **The print book** is at the printer right now and will start shipping the week of December 12th. You can expect 193 color pages printed on high-quality paper with a nice, durable cover. You can also expect some stickers in the package! A long and fruitful journey This project has been quite the journey. I'm incredibly happy with the way the book turned out, and if I had to do it again I'd do it exactly the same way. I took preorders of the ebook from [Day 1](http://bradfrost.com/blog/post/atomic-design-book/) of the project, and those preorders financed the copy editing, print production, and ebook production. It was a bit like doing a Kickstarter without Kickstarter. It was a bit of a leap of faith, so I'm really pleased the process went as smoothly as they did. Because of the open nature of the project, the **biggest challenge was managing people's expectations.** I didn't have the luxury of putting my client work on pause in order to dedicate myself to writing, so there were spells where this project took a back seat to more pressing client deadlines. Even [posting the entire manuscript online for free](http://atomicdesign.bradfrost.com/table-of-contents/) didn't seem to quiet people's "Is it done yet?" comments. I can certainly understand their frustration, but I'll say it's not uncommon for projects like this to take 2 years from beginning to end. The only difference is that people aren't typically privy to all the upfront effort. Because I shared things the way I did, I think it _felt_ a lot longer to people who are used to ordering a book and receiving a finished product shortly afterwards. Again, I'm super happy with this process, and I'll write about the many advantages of doing things this way in a future post. Thank you There are a ton of people to thank, and I tried to do my best in the book's [thank you section](http://atomicdesign.bradfrost.com/thanks/). But I'll mention a few people here who helped bring this book to life. Huge thanks to my wife, Melissa, who has been with me every step of this process. I'm so incredibly fortunate to be married to such an amazing woman. Thanks to [Owen Gregory](https://twitter.com/fullcreammilk), who copy edited this book with an awe-inspiring eye for detail. Big thanks to [Rachel Andrew](https://rachelandrew.co.uk/), who tackled all the ebook formatting while criss-crossing the globe. She is an absolute force of nature and I have so much respect for her and her work. And also huge thanks to [Rachel Arnold Sager](http://secondblockstudio.com/), who wrangled all the print formatting, communicating with the printer, and helping make stickers. And to [Josh Clark](https://bigmedium.com/) and [Dan Mall](http://danielmall.com/), who provided the book's [foreword](http://atomicdesign.bradfrost.com/foreword/). I'd also like to give a GIGANTIC thank you to the 2,400+ people who preordered the _Atomic Design_ ebook. Those people trusted me enough to pull through and deliver a book, and without their support this book would not exist. Thank you thank you thank you. I’m so incredibly fortunate to work in such an open, sharing, and collaborative community. Every day I'm inspired, educated, and encouraged by you all. **Thank you.** So that's that! You can [head over to the shop](http://shop.bradfrost.com/) to get the print, ebook, and print + ebook versions of  _Atomic Design_.
+  *[DETAILS]: Device, Environment, Time, Activity, Individual, Location, Social
+  *[RESS]: Responsive Design with Server-Side Components
+  *[CMS]: Content Management System
+  *[GUI]: Graphical User Interface

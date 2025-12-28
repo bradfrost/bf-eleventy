@@ -1,0 +1,25 @@
+---
+title: This Idea Must Die
+date: '2015-09-29'
+tags:
+- approach
+- podcast
+- shop talk show
+- strategy
+post_id: 9426
+original_link: https://bradfrost.com/blog/post/this-idea-must-die/
+custom_meta:
+  hide-ads: Show
+---
+
+Recently [Dave](http://daverupert.com/) and [Chris](https://css-tricks.com/) from [Shop Talk Show](http://shoptalkshow.com/) reached out to me to be a part of an episode called ["This Idea Must Die."](http://shoptalkshow.com/episodes/185-this-idea-must-die/) They wanted to know the following: 
+
+> We’d like to hear about what idea or thing in Web Design/Web Development you think our Industry must let go of in order to achieve progress.
+ 
+ I think it's an excellent question, so here's my answer. I think the idea that must die is the notion that the Web is this singular, definable, quantifiable thing. I often hear a lot of dogmatic language around what the Web is and that's often used to justify that person's One Right Way of doing things. In truth the Web is very much like the elephant in the [Blind Men and the Elephant](https://en.wikipedia.org/wiki/Blind_men_and_an_elephant) story. You know what I'm talking about? Each blind man touches a different part of the elephant and comes to a different conclusion about what an elephant is. The guy who feels the elephant's leg says the elephant is like a pillar; the one who feels the elephant's tail says the elephant is like a rope; the one who feels the elephant's trunk says the elephant is like a tree branch, and so on. Of course, none of their definitions is correct because non of them have the full picture. We come at the task of creating things for the Web with our own perspectives on what the Web is, and that influences how we approach our work. We have tons of people working on the Web and they're all coming from a ton of different backgrounds using tons of different technologies and tools to make things happen. That's fantastic, but of course that also means there are a lot of different perspectives that naturally end up conflicting with each other. Some peoples' perspective of the Web treats the Web as just another runtime, just like Flash or Java or whatever. And developers use that as an excuse to put on the horse blinders, focus on the latest and greatest technology, and resultantly exclude a lot of people from their experience. I love how [Jeremy Keith](https://adactio.com/) [rails against](https://www.youtube.com/watch?v=4711UGiFk9k) the phrase "The Web Platform" because that phrase sort of reinforces this notion that the Web is just another runtime. But it's not. Rather, as Jeremy puts it, [the Web is this continuum](https://adactio.com/journal/6692) of features, contexts, and environments, and it's up to us to recognize that and act accordingly. [Tim Kadlec](http://timkadlec.com/) recently had a great post called [Thriving in Unpredictability](http://timkadlec.com/2015/06/thriving-in-unpredictability/). In it, he talks about a lot of the things he can't control: 
+
+> I have no control over the network. It could be fast, it could be slow, it could be down entirely. I have no control over the end device. It could be a phone, a laptop, an e-reader, a watch, a tv. It could be top-of-the line or it could be budget device with low specs. It could be a device released the other day, or a device released 5 years ago. I have no control over the client running on that device. It could be the latest and greatest of modern browsers. It could be one of those browsers we developers love to hate. It could be a proxy browser. It could be an in-app browser. I have no control over the visitor or their context. They could be sitting down. They could be taking a train somewhere. They could be multitasking while walking down the street. They could be driving (I know). They could be color-blind.
+ 
+ I love Tim's post. I think it's great. The more we embrace the fact that there are so many variables and unknowns in our world, the more likely we are to build better, more resilient, more future-friendly experiences for the Web. As the edge of the horizon of the Web universe grows beyond the sight of any one person, it's becoming increasingly important to [embrace that unpredictability](http://futurefriendlyweb.com/) of the Web, embrace that unknown, embrace the things we can't see or haven't experienced first-hand, and really recognize that the Web is a diverse, amazing medium. So those are my thoughts. I like Dave's one-sentence synopsis of the idea that I think must die: "The Web is X, therefore my thing." We're shaped by our own perspectives and biases, and we need to overcome those biases in order to build better experiences for everybody.
+  *[DETAILS]: Device, Environment, Time, Activity, Individual, Location, Social
+  *[RESS]: Responsive Design with Server-Side Components

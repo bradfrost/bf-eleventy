@@ -1,0 +1,13 @@
+---
+title: BDConf Dallas - See You There
+date: '2012-08-30'
+post_id: 4442
+original_link: https://bradfrost.com/blog/post/bdconf-dallas-see-you-there-2/
+---
+
+I have the tremendous honor to speak at the upcoming [Breaking Development Conference](http://bdconf.com/2012/dallas) in Dallas, TX on September 24-26. **You should come. Seriously.** I've been to every single BDConf since they started: first as an attendee, then as a Fresh-Squeezed Mobile speaker, then as a sponsor, and now as a speaker. I've run the gamut! I can't even begin to explain how important the Breaking Development Conferences have been to my professional growth and my understanding of the mobile web and beyond. **It's like getting strapped to a chair and then getting fire-hosed by delicious, Skittle-favored knowledge water.** See, I told you I can't even begin to explain it. So you'll just have to come. If you do decide to come, you can use the code **DALFROS** to get $100 off. Plus, I will buy you a beer. Here's what [I'll be talking about](http://bdconf.com/2012/dallas/schedule#brad_frost): 
+
+> Responsive Design Vs Separate Mobile Sites: Presidential Smackdown Edition The US presidential race is heading into full swing, and the candidates will soon be intensely debating the country's hot-button issues. The web design world is entrenched in its own debate about how to address the mobile web: should you create a separate mobile site or create a responsive experience instead? It just so happens that the two US presidential candidates have chosen different mobile web strategies for their official websites. In the red corner is Republican candidate Mitt Romney's dedicated mobile site, while in the blue corner is incumbent president Barack Obama's responsive website. Which will prevail? Sit back, crack open a cold one, and watch the battle unfold as we dissect the candidates' sites to uncover best practices and common mobile web pitfalls.
+
+It should be a lot of fun. Plus, there will be tons of other [amazing talks](http://bdconf.com/2012/dallas/schedule) by some [amazing people](http://bdconf.com/2012/dallas/speakers). Plus beer. Plus great conversation. Plus awesome like-minded attendees. If you care about the web and where it's going (and I hope you do), you should really come. I hope to see you in the [Biodome](http://www.flickr.com/photos/grigs/6157129848/)!
+  *[DETAILS]: Device, Environment, Time, Activity, Individual, Location, Social

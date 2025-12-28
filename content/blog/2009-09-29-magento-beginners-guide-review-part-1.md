@@ -1,0 +1,47 @@
+---
+title: 'Magento Beginner''s Guide Review: Part 1'
+date: '2009-09-29'
+tags:
+- development
+- ecommerce
+- magento
+- open source
+- packt
+- web
+post_id: 161
+original_link: https://bradfrost.com/blog/post/magento-beginners-guide-review-part-1/
+---
+
+[caption id="attachment_162" align="alignnone" width="540" caption="Magento Beginner's Guide by Packt Publishing"]![Magento Beginner's Guide by Packt Publishing](https://bradfrost.com/wp-content/uploads/2009/09/1847195946.jpg)[/caption] Magento Ecommerce is a powerful, flexible open-source system that can produce great results right out of the box. At [Pod1](http://pod1.com "Ecommerce Web Design Company"), we work exclusively with Magento to deliver custom [ecommerce websites](http://www.pod1.com/magento-ecommerce/ "custom Magento ecommerce websites") for high end fashion brands and more. Because I've seen an incredible amount of client success with Magento I'm quick to recommend it as an extremely capable e-commerce solution. While Magento is a great tool, its learning curve is steep (relative to other platforms) and reliable, thorough documentation is often hard to come by. Enter the good people at Packt Publishing. Their Magento books are invaluable tools of navigating a powerful but daunting platform. I've read [Magento 1.3 Theme Design](http://www.packtpub.com/magento-1-3-theme-design/book "Magento 1.3 Theme Design") and it does a great job explaining how to customize Magento, so when Packt asked me to review [Magento Beginner's Guide](http://www.packtpub.com/magento-beginners-guide "Magento Beginner's Guide by Packt Publishing") I knew I'd have some great reading ahead of me. 
+
+### Who This Book is For
+
+Typically people asking me for e-commerce advice are small business owners or do-it-yourselfers who want an online presence that they can set up and manage themselves. I recommend Magento to them because of its scalability so as their business grows, their e-commerce presence can grow with it. However, everyone who has taken my advice and decided on Magento usually come running back to me after about an hour saying _"Sooooo, how exactly do you do this?"_ Several painstaking hours later they are online and ready to dig in. I then get another call saying something along the lines of  _"How do I make the background green?"_ Magento Beginner's Guide does a great job introducing you to the platform, its features and holds your hand through a whole build. It could very well be a "For Dummies" book because of the required knowledge needed to get started (essentially that the store owner can turn on a computer and check their email). All of the content is extremely relevant to the beginner and lays out a great plan of attack for getting a store up and functional. 
+
+### Chapter 2: Installation
+
+The book begins by giving a good introduction of Magento and its features, then the next chapter is entirely devoted to the installation process. I would guess that the installation process for Magento is one of the biggest turnoffs for beginner site owners. They get 10% -50% of the way through the installation, depending on how patient they are and walk away because of the hoops they have to jump through to get it up and running. The book's author does a great job highlighting what to look for in a good Magento host, setting up a database, how to properly set permissions (he does a beautiful job explaining the intricacies of permissions and ownership so that any layman can understand) and finalizing the installation. All the content is valuable however he doesn't get into the potential problems associated with a Magento install. These issues, which can be attributed to the host, ftp client, etc can quickly turn a step by step tutorial on its head. Which is why the [Installation Problems ](http://www.magentocommerce.com/boards/viewforum/9/ "Installation Problems")section of Magento's forum is so popular.**[****](http://www.magentocommerce.com/boards/viewforum/9/ "Installation Problems")**
+
+### Chapter 3: Categories and Attributes
+
+Configuring categories and attributes is an essential aspect of setting up a Magento store, and this chapter does a great job defining the myriad dropdowns, tabs and settings needed to set things up right. Learning how Magento needs at least on active category under "Default Category" set to "Is Anchor" for the navigation to appear on the frontend is something that is not at all intuitive and in my opinion poorly highlighted in Magento's official documentation. Rice does a great job showing step by step how to create new attributes, assign them to an attribute set (another Magento annoyance of mine), and how to structure categories to get the desired result. A reoccurring feature of the book is the "What Just Happened" notes which appears at the end of each section. This consistent feature helps recap what's going on, reinforces the ideas presented throughout the book, and maintains the "For Dummies" element of the book. If you're interested in reading this chapter in its entirety, [Packt has made it available on their site free to preview](http://www.packtpub.com/files/magento-sample-chapter-3-categories-and-attributes.pdf "Magento Beginner's Guide Chapter 3: Categories and Attributes"). 
+
+### Chapter 4: Tax Rules
+
+Well you learn something new everyday, and I must say I learned a lot from this chapter. As a web developer (and as a warm-blooded human being), tax rates, rules and classes sound about as fun as a sidekick to the stomach. Rice highlights the importance of configuring tax rules properly and setting them up for different customer groups so your store stays legal and flexible. After all, e-commerce is there to spread your brand's visibility beyond your hometown (population 380) and onto the national stage (watch out Amazon!). In order to do this properly, you need to have a great understanding of the intricacies of how taxes are configured for your store. Learn to hate New York and its per-county rates. Learn to import an XML sheet to take the pain away from manual data entry (something we did back before Magento 1.1). Setting up tax rules and classes is another area that Magento Beginner's Guide covers a whole lot better than Magento's own site. 
+
+### Chapter 5: Adding Simple Products
+
+Chapter 5 goes over arguably the most intuitive part of Magento, which is to add a simple product to your store. In helping many people get off the ground with their own Magento builds, I've noticed that they can figure their way around the "Add Product" panel better than mostly anything else in the backend. With that being said, the book does a great job defining a lot of the form fields, which tabs are absolutely essential to create a new product, and what areas you can simply ignore. It also lays the groundwork for further product configurations, which is outlined in Chapter 7. 
+
+### Chapter 6: Minimum Customization of Your Store's Appearance
+
+Here we go! Finally, the real branding of the website! If I just installed Magento for the first time the first thing I would do is figure out how to get rid of that stupid dog and chalkboard plaguing every page of my pristine new site. This is the chapter where logos get swapped, callouts get removed, footer info gets changed, and the rest of it. And it is in this chapter where the real weakness of this book lies. I say this because while this book does a fantastic job running through Magento for non-technical people, it really is impossible to do any REAL customization without getting your hands dirty with some XML, template and skin files. The book gently touches on customizing the XML to change the callouts, but it fails to mention that its how about 85% of things get customized in Magento is by using a Find and Replace tool in a text editor, and not through the admin panel. A great guy and former Magento novice Brian Lord of [Danka Clothing](http://dankaclothing.com/ "Artist Designed Tshirts") brilliantly described his first experiences with Magento one he was up and running: 
+
+> I felt like a first grader when I first was messing with it. Once I got over the hump though it really made a lot of sense. It took me about 5 minutes before my hands were covered in Magento oil
+
+At the end of the day, Magento is a freaking Russian nesting doll of directories, XML nodes, code snippets and blocks. However, it is not the role of _Magento Beginner's Guide_ to cover that level of customization. Doing so would would be akin to teaching organic chemistry to a 2nd grader. That's where _Magento 1.3 Theme Design_ comes into play. Packt's got you covered! So thankfully, the main weakness of this book is 100% covered once the reader graduates to the next level of Magento Zen. 
+
+### Wrap Up
+
+_Magento Beginner's Guide_ lays a solid foundation for comprehending what is ultimately a very capable yet involved system. While the learning curve of Magento is steep, I strongly feel that the effort is worthwhile. One of Magento's biggest advantages is its flexibility and everyone who has taken the time to learn Magento's structure is extremely pleased with the results. However, you have to start at the beginning like anything in life, and this book does a great job of setting the cornerstone of the Magento Cathedral of Knowledge. Stay tuned for Part 2 of this review where I'll review customizable products, payment methods and more!

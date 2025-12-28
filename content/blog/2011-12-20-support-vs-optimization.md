@@ -1,0 +1,52 @@
+---
+title: Support Vs Optimization
+date: '2011-12-20'
+tags:
+- ffly
+- mobile web
+- progressive enhancement
+- support
+- testing
+post_id: 2248
+original_link: https://bradfrost.com/blog/post/support-vs-optimization/
+---
+
+![There is a difference between support and optimization](https://bradfrost.com/wp-content/uploads/2011/12/34-Brad-Frosts-conflicted-copy-2011-09-11-650x487.png) A few things usually happen when I bring up the existence of mobile devices/browsers that aren’t iOS and Android. First, people give me a blank stare. Then they respond, “Well...fuck them”. (I’m not just being cheeky here, this sentiment has been expressed to me on multiple occasions.) As more connected devices enter the landscape, it’s important to discuss how we as web creators are going to deal with the sheer number of devices, browsers, operating systems, and form factors. Moving forward we need to consider the difference between _support_ and _optimization_. The Problem Here’s the problem. It’s already a challenge to properly test on the major desktop browsers: three versions of IE, Firefox, Chrome, Safari and Opera. Now we've got a giant list of mobile browsers on our hands, including: 
+
+  * iOS
+  * Android
+  * Blackberry Webkit
+  * IE Mobile
+  * Opera Mobile
+  * Opera Mini
+  * Firefox Mobile
+  * Silk
+  * Ovi
+  * pre-6.0 Blackberry browsers
+  * WebOS Webkit
+  * Nokia Webkit
+  * Netfront
+  * UCWeb
+  * Dolfin
+  * and more!
+
+(thanks [PPK](http://www.quirksmode.org/presentations/USTourApril11/albany.pdf)) And this isn't even getting into the different OS versions, emerging tablet versions and carrier bastardizations. Your reaction? **Get right out of town. Go on, scram.** The Knee-jerk Reaction You look at a list like that and know right away you're in a world of hurt if you try to take on this challenge. So you do the logical thing and take a look at your analytics, realize that the vast majority of mobile traffic comes from iOS and a smattering of Android devices, then set out to make function and look great on them (typically "great" on iOS, "OK" on Android).  Clients give you full support and they can't wait for their **"iPhone site"** to be ready. They get even more excited to learn that the **"iPhone site"** will work on Android too! You learn in the process that it's actually really fun to make stuff for iOS and Android, and start pushing the envelope, making things more app-like, adding some scrolls, adding some swipes here and there. Bells. Whistles. Life is good. But why can't I help but feel like there's something wrong here? Honey, I Broke the Internet The fact of the matter is that people [do indeed use these other mobile browsers](http://gs.statcounter.com/#mobile_browser-ww-monthly-201011-201111). Despite being not as sexy and user-friendly as the top-shelf browsers, people rely on these mobile devices to learn, search, explore, shop, and more. Hell, for an increasing number of people, that little screen is their [ lens to the modern world](http://www.opera.com/smw/). **The power of the web is its ubiquity.** It is the web's superpower, and its omnipresence is what sets it apart from native platforms. ["Native vs Web" is total bullshit](https://bradfrost.com/blog/news/native-vs-web-is-total-bullshit/) because the web can reach any device that has a browser, and native apps can't. **It's The Web. Worldwide.** You know, dub-dub-dubs and all that. ![The Power of the Web Is Its Ubiquity](https://bradfrost.com/wp-content/uploads/2011/12/11-650x487.png) The minute we start giving the middle finger to these other platforms, devices and browsers is the minute where the concept of The Web starts to erode. Because now it's not about universal access to information, knowledge and interactivity. It's about catering to the best of breed and leaving everyone else in the cold. All of a sudden, the "native vs web" argument is no longer bullshit. It becomes more an apples-to-apples comparison, where web experiences only work on the platforms that happen to provide thousands of gorgeous native apps. Moreover, it's just short-sighted. If you substitute the words "IE" and "Netscape" for "iOS" and "Android", you'll see what I mean. Are we going to start seeing "Best viewed on iPhone" animated GIFs popping up on site footers? What happens when the landscape changes yet again next year? We need to stop simply reacting to the landscape of today and start thinking...you guessed it....[future friendly](http://futurefriend.ly/).
+
+> Disruption will only accelerate. The quantity and diversity of connected devices—many of which we haven't imagined yet—will explode, as will the quantity and diversity of the people around the world who use them. Our existing standards, workflows, and infrastructure won't hold up.
+
+The future landscape is going to be crazier than that list of current mobile browsers. We won't just have to deal with mobile phones, but also tablets, TVs, displays, car dashboards, [watches](http://www.wimm.com/) and a whole lot of stuff we haven't even dreamed up of yet. Starting to deal with this crazy landscape today is like boot camp for the insanity we'll have to deal with tomorrow. The C Word So back to the problem at hand. Unless you want to hole yourself up in a cabin for the foreseeable future, you're not going to be able to optimize your web experience for every single browser. What I'm really asking for here is **consideration**. You don't have to treat these browsers as equals to iOS and Android and no one is recommending that we have to serve up a crappy WAP site to the best smartphones on the market. It's just about being more considerate and giving these people _who want to interact with your site_ a functional experience. That requires removing comfortable assumptions about support and accounting for different use cases. There are ways to _support_ lesser platforms while still _optimizing_ for the best of the best. For example, there's a lot of different Blackberry versions and there's not enough time in the day to get it looking rock solid on every version. Blackberry OS 4.5 ([RIM's current least common denominator](http://us.blackberry.com/developers/choosingtargetos.jsp)) butchers a lot of basic CSS. You even have to set explicit widths to floated elements for them to register. Goofy stuff, says I. We can't really help 4.5's problems and it's probably not worth bending over backwards to smooth out every layout issue, just as most of us no longer feel the urge to go back and deal with IE6's woes. But by being cognizant of the page weight and not sending down 20 scripts the phone can't even use, we've just given the poor user a better experience than 98% of other sites they encounter. And are there cases where what you're doing simply isn't possible on most devices? Of course. Nobody's saying you can't do that either. Just do it gracefully, and let people know their device can't handle the sheer power of your web app. Be nice. What To Do? [Progressive enhancement](https://bradfrost.com/blog/mobile/the-mobile-case-for-progressive-enhancement/) becomes an important strategy in order to deal with today and tomorrow's diverse landscape. Start with a strong, semantic foundation, layer on styles smartly and add in unobtrusive Javascript to build up the experience. This allows us to reach more places while still delivering powerful experiences to iOS, Android and other more capable future browsers. It's laying the foundation which we can then build upon. And here's some things you can do right now to be more considerate:
+
+  * Check out your site on the [Opera Mini Simulator](http://www.opera.com/developer/tools/mini/). How's it looking and working?
+  * Download [several Blackberry simulators](https://swdownloads.blackberry.com/Downloads/entry.do?code=060AD92489947D410D897474079C1477). I recommend getting at least one 4.5, 4.6, 5.0, and +6.0 emulator. A few words of warning: 
+    1. simulators are good but don't compare to the real deal. (Try beating up the nearest day trader to gain access to a live Blackberry)
+    2. Blackberry simulators are Windows only
+    3. Blackberry simulators are a bit clunky.
+  * Get yourself an Android device. In addition to the default Android browser, you can download [Opera Mobile](https://market.android.com/details?id=com.opera.browser&hl=en), [Firefox Mobile](http://www.mozilla.org/en-US/mobile/), [Opera Mini](https://market.android.com/details?id=com.opera.mini.android) and [Dolphin](https://market.android.com/details?id=mobi.mgeek.TunnyBrowser)
+  * [Jason Grigsby](http://twitter.com/grigs) recommends ninja-mode: going to carrier stores and firing up your experience on as many phones as possible. Quick, dirty, and effective. 
+  * Invest in some devices. You probably already have an iPhone or perhaps an Android. Get as many real devices as you can. I got a [Palm Pixi](http://www.ebay.com/sch/i.html?_from=R40&_trksid=p3872.m570.l1313&_nkw=palm+pixi&_sacat=See-All-Categories) for $25 on a daily deals site. These devices are worthy investments.
+  * Check out [@firt's](http://twitter.com/firt) rather extensive [list of mobile emulators](http://www.mobilexweb.com/emulators)
+  * Make the most out of [Modernizr](http://www.modernizr.com/) and conditionally load resources based on the browser capabilities.
+  * Change your mentality. Instead of getting hostile whenever you encounter yet another device or browser, think of it as an opportunity to reach more users.
+  * Keep in mind that next year's devices will be different yet again. Don't get hung up too much on specifics and prepare your experience to adapt to tomorrow's landscape.
+
+Hope for the Web "There is a difference between support and optimization" is a line I use regularly at work. For time and budget reasons, we can't make the best experience ever for every connected device, but we have a responsibility to provide a decent experience to those who wish to interact with our products and services. As we move into the future, it's going to be harder and harder to account for the plethora of connected devices, so we need to be construct our experiences with more consideration. In the magical world of web design we sometimes have to cut corners. Let's make sure The Web's superpower isn't one of the corners we cut.

@@ -1,0 +1,12 @@
+---
+title: I'm Getting Married! And Moving to NYC (Oh And I Need A Job)
+date: '2008-05-09'
+tags:
+- job
+- marriage
+- nyc
+post_id: 336
+original_link: https://bradfrost.com/blog/post/im-getting-married-and-moving-to-nyc-oh-and-i-need-a-job/
+---
+
+Well its official: I'm getting married! On March 21st, 2008, Melissa Pacatang Bostian and I got engaged, exactly 3 years after we first started dating. I proposed after a delicious meal at Mallorca (on the South Side of Pittsburgh) up on the Duquesne Incline platform overlooking the city. Melissa has been my better half for over three years now, and so much more than a girlfriend. Melissa is an extremely talented musician and artist, and has always offered much-needed criticism, support and motivation in all my endeavors. I am so excited to move to NYC to begin my creative journey with her. Here's a peek at the creative raw materials we are starting out with: 3 bass guitars, 2 acoustic guitars, 1 electric guitar, 4 keyboards (MIDI too), 1 banjo, 1 ukelele, 2 PCs, 1 Mac, Pro Tools, Adobe CS3, Premiere, After Effects, 1 high end Panasonic DV camera, canvases, acrylics, pastels, colored pencils, oils, charcoal, pen and ink, and two people in love that want to make it all happen. Lock and load. The proposal was in the works in my head for a long time, but I didn't know I was going to propose until the day I did it. So out to my local small town mall I went to pick out the perfect ring. The selection available was endless (read: there was barely any selection whatsoever). I came out with a modest yet elegant blue diamond, knowing that I would let her pick out what she really wanted once she said YES. We broke the news to my family on Easter and there was much wailing and gnashing of teeth. Just kidding. Everyone was really happy and supportive of our decision. I finally broke the news of my departure to NYC to my current employer and I am very thankful that they are all very supportive. I truly enjoy working at Sharp Creative and its given me so many great opportunities. I'm glad the "marriage excuse" was acceptable enough. So here I am, looking for a job in the Big Apple. I will be moving up in July sometime, so if you know of a company looking for a passionate web/Flash designer, [contact me](https://bradfrost.com/blog/contact-brad-frost "contact brad frost"). Life is good.

@@ -1,0 +1,25 @@
+---
+title: It Doesn't Matter
+date: '2013-02-25'
+tags:
+- mobile web
+- responsive web design
+- strategy
+post_id: 5669
+original_link: https://bradfrost.com/blog/post/it-doesnt-matter/
+---
+
+[Theresa Neil](http://www.theresaneil.com/) posted some slides rounding up some [navigation patterns for retail mobile sites](http://www.slideshare.net/theresaneil/mobile-retail-navigation-patterns). Theresa made the amazing [Mobile Design Pattern Gallery](http://www.mobiledesignpatterngallery.com/), which is a fantastic resource and was insanely helpful for me when I started making the [responsive pattern library](http://bradfrost.github.com/this-is-responsive/patterns.html). But I was a bit bummed when I saw this in the slides: 
+
+> However, this does not mean that responsive is the right strategy **for the retail space**. Mobile Optimized sites and/or Native apps are a better solution. 
+ 
+ First of all, some numbers are coming back on responsive retail sites and they're looking pretty damn good. [42.4% conversion rate increases.](http://gravitydept.com/blog/skinny-ties-and-responsive-ecommerce/ ) Over [400% (!) conversion rate](http://electricpulp.com/notes/you-like-apples/) increases for Android. Also, [native vs web](http://bradfrost.com/blog/post/native-vs-web-is-total-bullshit/) is a totally different conversation. But that's what we're here to talk about. This is a sentiment I hear time and time again whenever we start talking about responsive design: _"Yeah, but we're not the Boston Globe."_ or _"Responsive design works well for publication sites, but I work in the ecommerce-enterprise-startup-brand-app-highered-corporate-B2B space, so..."_ **It doesn't matter.** We aren't in the retail business. We're not in the higher education business. We aren't in the publication business. We aren't in the enterprise business. **We're in the interface business.** Sure, the content and functionality of our respective "spaces" (I've always hated that word) will influence how an interface gets realized, but our job is to make interfaces that function and look great. That now requires making interfaces that look and work great on a whole host of connected devices. Gradient of Adaptation Adaptive interface techniques sit on a gradient. Some interfaces consist of elements that don't have a lot of moving parts, while others require more thought and care. 
+ 
+   * **Translation** \- There are quite a few patterns that translate well to any environment with minimum effort. Words on a page. Accordions can stretch quite nicely. Many (but not all) images. Form fields. The list goes on. 
+   * **Transformation** \- Patterns like [adaptive maps](http://bradfrost.com/blog/post/adaptive-maps/), [conditional lightboxes](http://bradfrost.com/blog/post/conditional-lightbox/), many [responsive table solutions](http://bradfrost.github.com/this-is-responsive/resources.html#tables) and more are examples of interface elements that require more thought than a simple 1:1 translation to work across all environments. But these patterns end up working well by applying some good ol' fashioned consideration and progressive enhancement. 
+   * **[RESS](http://bradfrost.github.com/this-is-responsive/resources.html#ress)** \- Sometimes transformation requires more than client-side help, which is where RESS can step in to help. There might be several areas of an interface that might be too complex to transform and as a result require different treatments . Or maybe RESS is used to address a five year old Flash module that you can't get rid of just yet. 
+   * **Separate Device Experiences** \- I'm increasingly having a hard time thinking of technical reasons for creating entirely separate experiences (though there sure are plenty of organizational reasons). I'm not denying they don't have their advantages (catered experience, don't have to worry about translating the interface to large screens, potentially faster experiences), but they don't offset the disadvantages (URL redirect issues, [content parity](http://bradfrost.com/blog/mobile/content-parity/) issues, content governance and more).But I do talk to people who are working on really immersive Google Street View-esque panaramic experiences, and people whose entire product relies on extremely robust interactive data tables. I'd say they're justified in created a separate experience do deal with the level of complexity of their products.
+ 
+Separate device experiences give us an out. They stop the bleeding and solve an immediate need. But they simply don't scale. **Just because something is hard doesn't mean it's not worth pursuing.** Sooner or later, your ecommerce-enterprise-startup-brand-app-highered-corporate-B2B site will need to address the reality of our multi-device world and all the problems that come with it. And it's our job to solve those problems. After all, we're in the interface business.
+  *[DETAILS]: Device, Environment, Time, Activity, Individual, Location, Social
+  *[RESS]: Responsive Design with Server-Side Components
