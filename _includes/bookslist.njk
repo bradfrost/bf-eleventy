@@ -1,0 +1,30 @@
+<ol reversed class="postlist bookslist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
+{%- for post in postslist | reverse %}
+	<li class="postlist-item bookslist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		{% if post.data.image %}
+		<a href="{{ post.url }}" class="bookslist-link">
+			<img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="bookslist-thumbnail" loading="lazy">
+		</a>
+		{% endif %}
+		<div class="bookslist-content">
+			<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+			{% if post.data.author %}
+			<div class="bookslist-author">{{ post.data.author }}</div>
+			{% endif %}
+			{% if post.data.rating %}
+			<div class="bookslist-rating">Rating: {{ post.data.rating }}</div>
+			{% endif %}
+			{% if post.data.status %}
+			<div class="bookslist-status">Status: {{ post.data.status }}</div>
+			{% endif %}
+			{% if post.data.dateStarted %}
+			<div class="bookslist-date-started">Started: {{ post.data.dateStarted }}</div>
+			{% endif %}
+			{% if post.data.dateFinished %}
+			<div class="bookslist-date-finished">Finished: {{ post.data.dateFinished }}</div>
+			{% endif %}
+		</div>
+	</li>
+{%- endfor %}
+</ol>
+

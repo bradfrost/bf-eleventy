@@ -14,7 +14,7 @@ export default {
 		const slug = filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
 		
 		// Return the permalink in the format /books/post/[slug]
-		return `/books/post/${slug}/`;
+		return `/books/${slug}/`;
 	}
 };
 

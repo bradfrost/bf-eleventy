@@ -3,11 +3,19 @@ const eleventyNavigation = {
 	key: "Books",
 	order: 7
 };
+
+const eleventyComputed = {
+	postslist: function(data) {
+		return data.collections.all.filter(item => {
+			return item.page.inputPath && item.page.inputPath.includes('content/books/') && item.page.inputPath.endsWith('.md');
+		});
+	}
+};
 ---
 <h1>Books</h1>
 
-{% set postslist = collections.books %}
-{% include "postslist.njk" %}
+{% set postslist = postslist %}
+{% include "bookslist.njk" %}
 
 
 
